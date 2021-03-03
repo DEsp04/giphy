@@ -2,6 +2,8 @@ import React from "react";
 import { View, Text, Button, StyleSheet } from 'react-native';
 
 
+
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -19,6 +21,10 @@ const LandingScreen = ({navigation}) => {
       <Button
         title="Go To Giphy Page"
         onPress={() => navigation.navigate('Home')}
+      />
+      <Button
+        title="Go To Giphy Page"
+        onPress={() => navigation.navigate('Search')}
       />
     </View>
   )
