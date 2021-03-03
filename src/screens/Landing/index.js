@@ -23,7 +23,7 @@ const LandingScreen = ({navigation}) => {
         onPress={() => navigation.navigate('Home')}
       />
       <Button
-        title="Go To Giphy Page"
+        title="Go To Search Giphy"
         onPress={() => navigation.navigate('Search')}
       />
     </View>

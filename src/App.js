@@ -3,7 +3,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import LandingScreen from './screens/Landing';
 import HomeScreen from './screens/Home';
-import Search from './component/Search'
+import Search from "./screens/Search"
 
 
 const RootStack = createStackNavigator(); 
